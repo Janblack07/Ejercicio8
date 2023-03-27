@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    background-color: #161717;
+}
+
+.container {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 450px;
+}
+
+.botones {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn {
+    background-color: #1A73c8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.google-btn picture {
+    width: 30px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 75%;
+}
+
+.google-btn:hover {
+    opacity: 0.6;
+}
+
+.google-btn span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.twitter-btn {
+    background-color: #12b348;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.twitter-btn picture {
+    width: 30px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-btn picture img {
+    width: 75%;
+}
+
+.twitter-btn:hover {
+    opacity: 0.6;
+}
+
+.twitter-btn span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separador span {
+    color: #8b8b8b;
+}
+
+.section-datos {
+    display: flex;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    gap: 5px;
+    color: white;
+}
+
+span {
+    font-weight: 700;
+    color: white;
+}
+
+input {
+    width: 90%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+.section-datos input {
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+input:hover {
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 #6b1ac8
+}
+
+.visto {
+    display: flex;
+}
+
+.visto input {
+    width: 26px;
+    cursor: pointer;
+}
+
+.visto span {
+    font-weight: 400;
+}
+
+.crear {
+    background-color: rgb(245, 47, 169);
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 97%;
+    cursor: pointer;
+}
+
+.crear:hover {
+    background-color: rgb(245, 136, 203);
+}
